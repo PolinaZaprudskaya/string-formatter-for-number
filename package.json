@@ -1,0 +1,25 @@
+{
+  "name": "string-formatter-for-number",
+  "version": "1.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PolinaZaprudskaya/string-formatter"
+  },
+  "scripts": {
+    "prepublish": "tsc",
+    "publish": "npm publish"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
